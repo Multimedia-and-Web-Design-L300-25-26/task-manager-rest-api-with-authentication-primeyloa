@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vq8_GOgi)
-=======
 # Task Manager REST API with Authentication
 
 ## Overview
@@ -145,7 +142,7 @@ Implement the following routes:
 ## Environment Variables
 
 | Variable     | Description                        |
-|--------------|------------------------------------|
+| ------------ | ---------------------------------- |
 | `PORT`       | Port the server runs on            |
 | `MONGO_URI`  | MongoDB connection string          |
 | `JWT_SECRET` | Secret key used to sign JWT tokens |
@@ -156,18 +153,18 @@ Implement the following routes:
 
 ### Auth Endpoints
 
-| Method | Endpoint               | Description         | Auth Required |
-|--------|------------------------|---------------------|---------------|
-| POST   | `/api/auth/register`   | Register a new user | No            |
-| POST   | `/api/auth/login`      | Login and get token | No            |
+| Method | Endpoint             | Description         | Auth Required |
+| ------ | -------------------- | ------------------- | ------------- |
+| POST   | `/api/auth/register` | Register a new user | No            |
+| POST   | `/api/auth/login`    | Login and get token | No            |
 
 ### Task Endpoints
 
-| Method | Endpoint           | Description                  | Auth Required |
-|--------|--------------------|------------------------------|---------------|
-| POST   | `/api/tasks`       | Create a new task            | Yes           |
-| GET    | `/api/tasks`       | Get all tasks for the user   | Yes           |
-| DELETE | `/api/tasks/:id`   | Delete a task by ID          | Yes           |
+| Method | Endpoint         | Description                | Auth Required |
+| ------ | ---------------- | -------------------------- | ------------- |
+| POST   | `/api/tasks`     | Create a new task          | Yes           |
+| GET    | `/api/tasks`     | Get all tasks for the user | Yes           |
+| DELETE | `/api/tasks/:id` | Delete a task by ID        | Yes           |
 
 ---
 
@@ -176,4 +173,3 @@ Implement the following routes:
 Push your final solution to the GitHub Classroom repository. The project will be automatically evaluated using tests. Ensure all tests pass successfully before submitting.
 
 Good luck.
->>>>>>> c0bc2f790a4a178e10449c3d5e8177ab072e0276
